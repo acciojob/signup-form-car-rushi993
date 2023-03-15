@@ -1,16 +1,75 @@
 <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="main.css">
+      <link rel="icon" href="../Practice_1/../../day_1/test.png">
+   </head>
+   <body>
 
-<html>
+      <form action="">
+         <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" required>
+         </div>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+         <div>
+            <label for="email">Name</label>
+            <input type="email" id="email" placeholder="Email" required>
+         </div>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+         <div>
+            <label for="gender">Gender</label>
+            <div>
+               <label for="gender_m">Male</label>
+               <input type="radio" name="gender" id="gender_m">
+            </div>
 
-</body>
+            <div>
+               <label for="gender_f">Female</label>
+               <input type="radio" name="gender"  id="gender_f">
+            </div>
+         </div>
 
+         <div>
+            <label for="car">car</label>
+            <select name="car" id="">
+               <option value="BMW">BMW</option>
+               <option value="Audi">Audi</option>
+               <option value="Mercedez">Mercedez</option>
+
+            </select>
+
+         </div>
+
+         <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Age" required>
+         </div>
+
+         <div>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" placeholder="DOB" required>
+         </div>
+
+         <div>
+            <label for="tel">Phone Number</label>
+            <input type="number" id="tel" placeholder="Phone Number" required>
+         </div>
+
+         <div>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" id="cheakbox">
+         </div>
+
+         <input type="submit">
+
+      </form>
+
+
+
+   </body>
 </html>
